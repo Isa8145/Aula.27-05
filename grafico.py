@@ -6,4 +6,4 @@ try:
 except: 
   df = pd.read_csv('circuits.csv')
 
-st.ber_chart(df, x='month', y='total')
+st.bar_chart(df, x='month', y='total')
